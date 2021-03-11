@@ -1,0 +1,65 @@
+body
+{
+	background-color: #2F3336;
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+h1
+{
+	font-size: 36px;
+	font-weight: 400;
+	color: #C0D06F;
+	margin: 20px;
+}
+
+.guitars
+{
+	text-align: center;
+}
+
+.guitars img
+{
+	width: 100%;
+	height: auto;
+}
+
+.guitars p
+{
+	margin-bottom: 30px;
+}
+
+.guitars figcaption
+{
+	margin-top: 8px;
+}
+
+.navbar
+{
+	min-height: 57px;
+}
+
+.bg-guitars
+{
+	background-color: #91a33b !important
+}
+
+#back-to-top
+{
+	color: green !important;
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 10px;
+
+}
+
+.img-title
+{
+	object-fit: contain;
+}
+
+.img-tile:hover
+{
+	transform: scale(1.5);
+}
