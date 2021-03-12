@@ -2,24 +2,19 @@ body {
     background-color: #2F3336;
 }
 div {
-    width: 300px;
-    max-width: 300px;
-    margin-left: 5rem;
-    margin-top: 2rem;
+    max-width: 400px;
+    margin: auto;
 }
 button {
     width: 200px;
     max-width: 200px;
-    margin-left: 6.5rem;
     color: #1c7430;
+    margin:auto;
 }
-h6 {
+.headerClass {
     color: #C0D06F;
-    margin: 1rem;
-}
-h4 {
-    color: #C0D06F;
-    margin: 1rem;
+    margin: 2rem 0;
+
 }
 label {
     color: #ffffff;
