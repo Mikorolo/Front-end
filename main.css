@@ -1,6 +1,6 @@
 body
 {
-	background-color: #2F3336;
+	background-color: #2f3336;
 	color: #efefef;
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
@@ -56,12 +56,13 @@ html {
 	scroll-behavior: smooth;
 }
 
-.img-title
-{
+.img-tile {
 	object-fit: contain;
+	opacity: 90%;
 }
 
 .img-tile:hover
 {
-	transform: scale(1.5);
+	transform: scale(1.1);
+	opacity: 100%;
 }
