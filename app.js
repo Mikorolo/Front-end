@@ -64,7 +64,7 @@ function checkValue()
         c.textContent = "Twój numer: " + telNumValue;
         d.textContent = "Twój email: " + emailValue;
         e.textContent = "Twoja wiadomość: " + messageValue;
-        
+
         divResults.append(a, b, c, d, e);
     }
 }

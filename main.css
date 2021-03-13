@@ -45,6 +45,11 @@ h1
 	background-color: #91a33b !important
 }
 
+.bg-accordion
+{
+	background-color: #1d2124 !important;
+}
+
 #back-to-top
 {
 	color: green !important;
