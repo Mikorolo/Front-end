@@ -1,73 +1,74 @@
-body
-{
+html {
+	scroll-behavior: smooth;
+}
+body {
 	background-color: #2f3336;
 	color: #efefef;
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
 }
-
-h1
-{
+.header{
 	font-size: 36px;
 	font-weight: 400;
 	color: #C0D06F;
 	margin: 20px;
 }
 
-.guitars
-{
+.guitars {
 	text-align: center;
 }
 
-.guitars img
-{
+.guitars img {
 	width: 100%;
 	height: auto;
 }
 
-.guitars p
-{
+.guitars p {
 	margin-bottom: 30px;
 }
 
-.guitars figcaption
-{
+.guitars figcaption {
 	margin-top: 8px;
 }
 
-.navbar
-{
+.navbar {
 	min-height: 57px;
 }
 
-.bg-guitars
-{
-	background-color: #91a33b !important
+.bg-guitars {
+	background-color: #91a33b;
 }
 
 .bg-accordion
 {
-	background-color: #1d2124 !important;
+	background-color: #1d2124;
 }
 
 #back-to-top
 {
-	color: green !important;
+	color: green;
 	float: right;
 	margin: 0 20px 10px 0;
 
-}
-html {
-	scroll-behavior: smooth;
 }
 
 .img-tile {
 	object-fit: contain;
 	opacity: 90%;
+	margin-top: 15px;
 }
 
 .img-tile:hover
 {
 	transform: scale(1.1);
 	opacity: 100%;
+}
+.footer{
+	background-color: #91a33b;
+	height: 57px;
+	padding: 2px;
+	position: sticky;
+}
+.footer p{
+	margin-top: 15px;
 }

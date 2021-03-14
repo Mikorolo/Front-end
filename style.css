@@ -1,14 +1,20 @@
-body {
-    background-color: #2F3336;
+html{
+    scroll-behavior: smooth;
 }
-div {
+body {
+    background-color: #2f3336;
+    color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+.div-form {
     max-width: 400px;
     margin: auto;
 }
-button {
+.button-form {
     width: 200px;
     max-width: 200px;
-    color: #1c7430;
+    /*color: #1c7430;*/
     margin:auto;
 }
 .headerClass {
@@ -16,7 +22,13 @@ button {
     margin: 2rem 0;
 
 }
-label {
+.bg-guitars {
+    background-color: #91a33b;
+}
+.navbar {
+    min-height: 57px;
+}
+.label-color {
     color: #ffffff;
 }
 footer {

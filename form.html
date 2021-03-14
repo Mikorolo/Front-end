@@ -24,52 +24,112 @@
 
   </head>
   <body>
+  <nav class="navbar navbar-dark bg-guitars navbar-expand-lg">
+      <a class="navbar-brand" href="#"><img src="img/guitar.png" width="30px" height="30px" alt=""
+                                            class="d-inline-block mr-1 align-bottom"> Guitarsportal.pl</a>
 
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+              data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false"
+              aria-label="Przełącznik nawigacji">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainmenu">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="#"> Start </a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"
+                     role="button" aria-expanded="false" id="submenu1" aria-haspopup="true"> Modele </a>
+
+                  <div class="dropdown-menu" aria-labelledby="submenu1">
+                      <a class="dropdown-item" href="acoustic-guitar-1.html"> Akustyczne </a>
+                      <a class="dropdown-item" href="#"> Bassowe </a>
+                      <a class="dropdown-item" href="#"> Elektryczne </a>
+                  </div>
+
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"
+                     role="button" aria-expanded="false" id="submenu2" aria-haspopup="true"> Sprzęt </a>
+
+                  <div class="dropdown-menu" aria-labelledby="submenu2">
+                      <a class="dropdown-item" href="#"> Wzmacniacze </a>
+                      <a class="dropdown-item" href="#"> Efekty </a>
+                      <a class="dropdown-item" href="#"> Kostki </a>
+                      <a class="dropdown-item" href="#"> Kable </a>
+                      <a class="dropdown-item" href="#"> Struny </a>
+                      <a class="dropdown-item" href="#"> Pozostałe akcesoria </a>
+                  </div>
+
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="porady.html"> Porady </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="faq.html"> FAQ </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="form.html"> Kontakt </a>
+              </li>
+          </ul>
+
+          <form class="form-inline" action="">
+
+              <input class="form-control mr-1" name="search" type="search" placeholder="wyszukaj"
+                     aria-label="wyszukaj">
+              <button class="btn btn-light" type="submit">Znajdź</button>
+          </form>
+
+      </div>
+
+  </nav>
       <main class="container text-center">
           <h4 class="headerClass">Formularz kontaktowy</h4>
           <h6 class="headerClass">W celu przesłania zgłoszenia proszę wypełnić poniższe pola i nacisnąć przycisk "Wyślij"</h6>
           <form class="container">
               <!-- Name input -->
-              <div class="mb-4">
+              <div class="mb-4 div-form">
                   <input type="text" id="firstName" class="form-control" aria-required="true" required />
-                  <label class="form-label" for="firstName">Imię</label>
+                  <label class="form-label label-color" for="firstName">Imię</label>
               </div>
 
               <!-- Surname input -->
-              <div class="mb-4">
+              <div class="mb-4 div-form">
                   <input type="text" id="surname" class="form-control" required />
-                  <label class="form-label" for="surname">Nazwisko</label>
+                  <label class="form-label label-color" for="surname">Nazwisko</label>
               </div>
 
               <!-- Phone number input -->
-              <div class="mb-4">
+              <div class="mb-4 div-form">
                   <input id="telNum" class="form-control" required />
-                  <label class="form-label" for="telNum">Telefon</label>
+                  <label class="form-label label-color" for="telNum">Telefon</label>
               </div>
 
               <!-- Email input -->
-              <div class="mb-4">
+              <div class="mb-4 div-form">
                   <input type="email" id="mail" class="form-control" required />
-                  <label class="form-label" for="mail">Adres e-mail</label>
+                  <label class="form-label label-color" for="mail">Adres e-mail</label>
               </div>
 
               <!-- Message input -->
-              <div class="mb-4">
+              <div class="mb-4 div-form">
                   <textarea class="form-control" type="text" id="message" rows="4" required></textarea>
-                  <label class="form-label" for="message">Wiadomość</label>
+                  <label class="form-label label-color" for="message">Wiadomość</label>
               </div>
 
               <!-- Checkbox -->
-              <div class="form-check d-flex mb-4">
+              <div class="form-check d-flex mb-4 div-form">
                   <input
                           class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked required />
-                  <label class="form-check-label" for="form4Example4">
+                  <label class="form-check-label label-color" for="form4Example4">
                       Akceptuję warunki umowy
                   </label>
               </div>
 
               <!-- Submit button -->
-              <button type="submit" class="btn btn-primary btn-block mb-4" onclick="checkValue()">Wyślij</button>
+              <button type="submit" class="btn btn-primary btn-block mb-4 button-form" onclick="checkValue()">Wyślij</button>
           </form>
 
           <footer>
