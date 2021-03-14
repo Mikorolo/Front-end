@@ -68,3 +68,5 @@ function checkValue()
         divResults.append(a, b, c, d, e);
     }
 }
+$('.toast').toast(option)
+$('#element').toast('hide')

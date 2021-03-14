@@ -72,3 +72,9 @@ body {
 .footer p{
 	margin-top: 15px;
 }
+.card {
+	color: white;
+}
+.card-body{
+	color: black;
+}
