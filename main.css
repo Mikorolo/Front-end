@@ -78,3 +78,6 @@ body {
 .card-body{
 	color: black;
 }
+.accordion-body{
+	color: white !important;
+}
